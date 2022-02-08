@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="printa">
+      <UniqueIdentifier>{83f3d6c3-c67b-4277-8b77-164a4e50dc0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="printa\fmt">
+      <UniqueIdentifier>{93be69bf-3e3d-4d59-ac02-72ba02f1ebe2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="singleton.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\macros.hpp">
+      <Filter>printa</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\printa.hpp">
+      <Filter>printa</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\chrono.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\color.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\compile.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\core.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\format.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\format-inl.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\locale.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\os.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\ostream.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\posix.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\printf.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+    <ClInclude Include="printa\fmt\ranges.h">
+      <Filter>printa\fmt</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="printa\fmt\format.cc">
+      <Filter>printa\fmt</Filter>
+    </ClCompile>
+    <ClCompile Include="printa\fmt\os.cc">
+      <Filter>printa\fmt</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
